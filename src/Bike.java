@@ -7,6 +7,21 @@ public class Bike implements Vehicle{
         this.hour = hour;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getHour() {
+        return hour;
+    }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
 
     @Override
     public double calculateRentalCost() {
